@@ -1,0 +1,60 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!-- 
+
+Hello Camper!
+
+For now, the test suite only works in Chrome! Please read the README below in the JS Editor before beginning. Feel free to delete this message once you have read it. Good luck and Happy Coding! 
+
+- The freeCodeCamp Team 
+
+-->
+
+<h1  id="title">Feedback form</h1>
+<p id="description">Let us know how our car dealership is doing
+</p>
+<form  id="survey-form"><label for="name" id="name-label">Name</label> 
+  <input id="name"  placeholder="name" required> <br />
+  <label for="email" id="email-label">Email</label> 
+  <input id="email" id="email-label" placeholder="email" type="email" required> <br />
+  <label for="number" id="number-label">Number</label> 
+  <input id="number" id="number-label" placeholder="number" type="number" min="1" max="5">
+   <br />
+  <label for="dropdown" id="dropdown">Make</label><select id="dropdown" name="cars">
+  <option value="volvo">Volvo</option>
+  <option value="saab">Saab</option>
+  <option value="fiat">Fiat</option>
+  <option value="audi">Audi</option>
+</select>
+  
+  <p>Mechanic:</p>
+
+<div>
+  <input type="radio" id="huey" name="drone" value="huey"
+         checked>
+  <label for="huey">Huey</label>
+</div>
+
+<div>
+  <input type="radio" id="dewey" name="drone" value="dewey">
+  <label for="dewey">Dewey</label>
+</div>
+
+<div>
+  <input type="radio" id="louie" name="drone" value="louie">
+  <label for="louie">Louis</label>
+</div>
+
+  
+  <br /><p>Comments:</p>
+<textarea>  
+ </textarea> 
+  <p>Types of vehicles owned</p>
+<input type="checkbox" name="vehicle1" value="sedan"> Sedan<br>
+<input type="checkbox" name="vehicle2" value="convertible"> Convertible<br>
+<input type="checkbox" name="vehicle3" value="suv" checked>SUV<br>
+<input id="submit" type="submit" value="Submit">
+ </form>
+
+
+
